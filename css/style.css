@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 20px;
+    padding: 0px;
+    font-family:'Urbanist', sans-serif;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-weight: bold;
+    color: #023047;
+}
+
+.content-1 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.par1 {
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.par2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box .content-2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-box{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-type a{
+    color: #023047;
+    font-size: 28px;
+}
+.button-box .button-1 {
+    background-color: #FFB703;
+    border-color: #FFB703;
+    width: 293px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.button-box .button-2 {
+    background-color: #FFB703;
+    border-color: #FFB703;
+    width: 293px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.content-3 {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content-3a {
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.content3-1 {
+    font-size: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-4 {
+    display: flex;
+    align-items: center;
+}
+
+.content-box-1 {
+    background-color: #FFB703;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.content3-2 {
+    margin-left: 12px;
+}
+
+.kalkulator{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input-box {
+    width: 100px;
+    height: 20px;
+    border-radius: 12px;
+}
